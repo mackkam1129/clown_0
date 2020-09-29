@@ -1,0 +1,86 @@
+.grid12-6{
+     position:relative;
+}
+.grid12-6 .inner_box{
+     position:absolute;
+     background:rgba(255,255,255,0.7);
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     padding:35px;
+     text-align:center;
+}
+.grid12-6 .inner_box h2{
+     font-family:arial;
+     text-align:center;
+     font-size:26px;
+     font-weight:normal;
+     color:#777;
+}
+.grid12-6 .inner_box button{
+     background:#aaa;
+     color:#fff;
+     text-transform:uppercase;
+     font-weight:bold;
+     font-size:16px;
+     border:none;
+     padding:10px 30px;
+}
+
+.H1{font-family: 'VT323', monospace;
+color: white;
+font-size: 60px;
+text-align: center;
+margin-top: 40px;}
+
+
+.container{width: 100%;
+margin:100px auto 0;}
+
+.cbox {position: relative; width:500px; height:500px; background:#F66; text-align:center; line-height:100px; margin:0 auto;  color:#000; font-size:12px;
+
+}
+
+
+
+.bbox{width: 900px; height: 900px; margin: auto}
+
+
+.box{
+     width: 150px;
+     height: 150px;
+     background-color: #00ff00;
+     
+     transition-property: all;
+     transition-duration: 1s;
+     float: left;
+     transform: rotate(0deg);
+     animation: anime;
+     animation-duration: 2s;
+     animation-fill-mode: forwards; 
+     animation-play-state: paused;
+
+}
+
+
+
+
+.box:hover{
+     background-color: #FF00FF;
+     transform:rotate(360deg);
+     animation-play-state: running; ;
+
+     
+}
+
+
+
+@keyframes anime{
+     0%{opacity: 100%;}
+     100%{opacity: 0;}
+     }
+
+
+.body{
+background-color: black; background-image : url('images/clown.png'); background-position: 40.655% 61%; background-repeat: no-repeat;
+background-attachment: fixed;   background-size: 150px;
